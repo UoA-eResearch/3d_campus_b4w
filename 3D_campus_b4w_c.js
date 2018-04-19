@@ -14,7 +14,7 @@ var m_ver       = require("version");
 var DEBUG = (m_ver.type() == "DEBUG");
 
 // automatically detect assets path
-var APP_ASSETS_PATH = m_cfg.get_assets_path("3D_campus_b4w_c");
+var APP_ASSETS_PATH = "assets/";
 
 /**
  * export the method to initialize the app (called at the bottom of this file)
