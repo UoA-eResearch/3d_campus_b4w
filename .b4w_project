@@ -1,0 +1,28 @@
+[info]
+author = Centre for eResearch
+icon = 
+name = 3D_campus_b4w_c
+title = University of Auckland campuses
+
+[paths]
+assets_dirs = projects/3D_campus_b4w_c/assets;
+blend_dirs = projects/3D_campus_b4w_c/blender;
+blender_exec = /usr/lib/blender/blender
+build_dir = projects/3D_campus_b4w_c/build
+deploy_dir = 
+
+[compile]
+apps = 
+css_ignore = 
+engine_type = copy
+ignore = 
+js_ignore = 
+optimization = simple
+use_physics = True
+
+[deploy]
+assets_path_dest = assets
+assets_path_prefix = assets
+ignore = 
+override = 
+
