@@ -107,10 +107,10 @@ function main_canvas_click(e) {
     var y = m_mouse.get_coords_y(e);
 
     var obj = m_scenes.pick_object(x, y);
-    var pos = m_trans.get_translation(obj);
 
     if (obj) {
         console.log("click", obj);
+        var pos = m_trans.get_translation(obj);
         m_cam.eye_setup(cam, {pos: pos});
     }
 }
